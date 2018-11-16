@@ -8,6 +8,7 @@ function init() {
     const key=parseInt(event.which);
     
     if(key===code[index]){
+      console.log('You pressed a key');
       index++;
       if(index===code.length){
         window.alert('Hooray!');
