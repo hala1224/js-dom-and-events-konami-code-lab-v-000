@@ -7,9 +7,9 @@ function init() {
   window.addEventListener("keydown", function(event){
     const key=parseInt(event.which);
     
-    if(key===code[index]){
+    if(key === code[index]){
       index++;
-      if(index===code.length){
+      if(index === code.length){
         window.alert('Hooray!');
         // window.alert;
       }
