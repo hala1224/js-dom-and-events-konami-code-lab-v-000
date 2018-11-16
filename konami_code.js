@@ -11,7 +11,6 @@ function init() {
       index++;
       if(index===code.length){
         window.alert('Hooray!');
-        // window.alert;
       }
     }
     else{
