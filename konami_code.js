@@ -10,7 +10,7 @@ function init() {
     if(key===code[index]){
       index++;
       if(index===code.length){
-        window.alert("Cheat activated, you cheater");
+        window.alert("Hooray!");
       }
     }
     else{
