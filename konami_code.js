@@ -11,7 +11,7 @@ function init() {
       index++;
       if(index===code.length){
         window.alert = expect.createSpy('Hooray!');
-        window.alert;
+        // window.alert;
       }
     }
     else{
